@@ -1,0 +1,237 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - Cassiano Padilha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#sobre">Sobre Mim</a></li>
+
+                <li><a href="#formacao">Formação</a></li>
+
+                <li><a href="#portfolio">Portfólio</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+        <button id="tema">Alterar Tema</button>
+
+    </header>
+    
+    
+
+       <!-- =======================
+     Sobre Mim
+     ======================= -->
+<section id="sobre">
+    <div class="sobre-container">
+        
+        <div class="sobre-texto">
+            <h2>Sobre Mim</h2>
+            
+            <p>Meu nome é <strong>Cassiano Padilha</strong>, tenho 30 anos e atualmente curso Análise e Desenvolvimento de Sistemas na Uninter.</p>
+            
+            <p>Sou Tecnólogo em Logística pela Universidade São Judas Tadeu e Técnico em Administração pela ETEC Lauro Gomes.</p>
+            
+            <p>Sempre busco aprimorar meus conhecimentos profissionais, por isso também realizei cursos de Operador de Empilhadeira e Operador de Ponte Rolante pelo SENAI.</p>
+            
+            <p>Tenho grande interesse por tecnologia, desenvolvimento de software e aprendizado contínuo. Nas horas vagas gosto de praticar surf, atividade que contribui para meu bem-estar e qualidade de vida.</p>
+        </div>
+
+        <div class="foto-perfil">
+            <img src="imagens/Cassianoperfil.png" 
+                 alt="Foto de Cassiano Padilha" 
+                 title="Cassiano Padilha">
+        </div>
+
+    </div>
+
+</section>
+<!-- =======================
+     Formação
+======================= -->
+
+<section id="formacao">
+
+    <h2>Formação</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Graduação</h3>
+
+            <p>
+                Cursando Análise e Desenvolvimento de Sistemas
+                pela UNINTER.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Formação Anterior</h3>
+
+            <p>
+                Tecnólogo em Logística pela Universidade São Judas.
+            </p>
+
+            <p>
+                Técnico em Administração pela ETEC Lauro Gomes.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Cursos</h3>
+
+            <p>Operador de Empilhadeira - SENAI</p>
+
+            <p>Operador de Ponte Rolante - SENAI</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Idiomas</h3>
+
+            <p>Português - Nativo</p>
+
+            <p>Inglês - Básico</p>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- =======================
+     Portfólio
+======================= -->
+
+<section id="portfolio">
+
+    <h2>Portfólio</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3> AdotaAqui</h3>
+
+            <p>
+                Projeto em desenvolvimento para facilitar a divulgação e adoção
+                responsável de animais, oferecendo uma plataforma simples
+                e intuitiva para conectar adotantes e protetores.
+            </p>
+
+            <a href="https://drive.google.com/file/d/1WhQwCTufOvMzixnGzhr8a1gtNhOjEPxt/view?usp=drive_link" class="botao">
+                Ver Projeto
+            </a>
+
+        </div>
+
+         <div class="card">
+
+            <h3> Portifolio</h3>
+
+            <p>
+                Projeto que deu a origem do que você esta vendo nesta página.
+            </p>
+
+            <a href="" class="botao">
+                Ver Projeto
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- =======================
+     Contato
+======================= -->
+
+<section id="contato">
+
+    <h2>Contato</h2>
+
+    <form id="formContato">
+
+        <div class="campo">
+
+            <label for="nome">Nome</label>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome">
+
+        </div>
+
+        <div class="campo">
+
+            <label for="email">E-mail</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Digite seu e-mail">
+
+        </div>
+
+        <div class="campo">
+
+            <label for="mensagem">Mensagem</label>
+
+            <textarea
+                id="mensagem"
+                rows="6"
+                placeholder="Digite sua mensagem"></textarea>
+
+        </div>
+
+        <button type="submit">
+
+            Enviar Mensagem
+
+        </button>
+        
+        <p id="mensagemStatus"></p>
+
+    </form>
+
+
+
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 - Cassiano Padilha | Portfólio Pessoal
+    </p>
+
+ </footer>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
